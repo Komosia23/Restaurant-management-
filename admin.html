@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="loginSection">
+    <h2>Admin Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="adminPanel" style="display:none;">
+    <h1>📊 Orders Dashboard</h1>
+    <div id="orders"></div>
+    <h3 id="totalSales"></h3>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
